@@ -1,0 +1,17 @@
+The HTMLMediaElement API is a powerful tool to control the behavior of audio and video elements on your page. It extends the base HTMLElement interface, so you have access to the base properties as well as these helpful methods.
+
+You've already explored some of the methods in a previous lesson about the Audio element, such as play() and pause(). These same methods are available on video elements as well.
+
+There are some other helpful methods, such as the addTextTrack() method. This method allows you to specify a text track to associate with the media element which is especially helpful for adding subtitles to a video.
+
+Or the fastSeek() method, which allows you to move the playback position to a specific time within the media.
+
+The HTMLMediaElement API also provides access to some new events that a standard element does not have.
+
+The play and pause events are fired when the media starts and stops playing. The ended event fires when the end of the media has been reached.
+
+The waiting event fires when playback is automatically paused due to data buffering.
+
+And the canplay and canplaythrough events fire when the media can be partially played, or played in totality.
+
+The HTMLMediaElement offers a great deal of control over your interactive media, and we've only scratched the surface. I encourage you to explore and experiment with the API to find the best ways to integrate it with your applications.
