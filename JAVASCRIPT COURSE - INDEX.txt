@@ -1,0 +1,160 @@
+📘 JavaScript Theory Index
+
+This repository documents JavaScript theoretical concepts, organized from fundamentals to advanced topics, without implementation projects.
+
+📑 Index (Theory Only)
+1️⃣ Variables and Strings
+
+Introduction to JavaScript
+
+Introduction to Strings
+
+Understanding Code Clarity
+
+Working with Data Types
+
+JavaScript Variables and Data Types
+
+Working with Strings in JavaScript
+
+Working with String Character Methods
+
+Working with String Search and Slice Methods
+
+Working with String Formatting Methods
+
+Working with String Modification Methods
+
+2️⃣ Booleans and Numbers
+
+Working with Numbers and Arithmetic Operators
+
+Working with Operator Behavior
+
+Working with Comparison and Boolean Operators
+
+Working with Unary and Bitwise Operators
+
+Working with Conditional Logic and Math Methods
+
+Working with Numbers and Common Number Methods
+
+Understanding Comparisons and Conditionals
+
+3️⃣ Functions
+
+Working with Functions
+
+4️⃣ Arrays
+
+Working with Arrays
+
+Working with Common Array Methods
+
+5️⃣ Objects
+
+Introduction to JavaScript Objects and Their Properties
+
+Working with JSON
+
+Working with Optional Chaining
+
+Object Destructuring
+
+6️⃣ Loops
+
+Working with Loops
+
+7️⃣ JavaScript Fundamentals
+
+Working with Types and Objects
+
+Working with Arrays, Variables, and Naming Practices
+
+Working with Code Quality and Execution Concepts
+
+var Keyword and Hoisting
+
+Understanding Modules, Imports, and Exports
+
+Working with the arguments Object
+
+Rest Parameters
+
+8️⃣ Higher Order Functions and Callbacks
+
+Working with Higher Order Functions
+
+Callbacks
+
+9️⃣ DOM Manipulation and Events
+
+Working with the DOM
+
+Click Events
+
+Web APIs
+
+Understanding the Event Object
+
+Event Delegation
+
+🔟 JavaScript Accessibility
+
+ARIA Attributes
+
+aria-expanded
+
+aria-live
+
+Common ARIA States
+
+1️⃣1️⃣ Debugging
+
+Debugging Techniques
+
+1️⃣2️⃣ Regular Expressions
+
+Working with Regular Expressions
+
+1️⃣3️⃣ Form Validation
+
+Understanding Form Validation
+
+1️⃣4️⃣ Dates
+
+Working with Dates
+
+1️⃣5️⃣ Audio and Video
+
+Working with Audio and Video Events
+
+1️⃣6️⃣ Maps and Sets
+
+Working with Maps
+
+Working with Sets
+
+1️⃣7️⃣ Local Storage and CRUD
+
+Client-Side Storage
+
+CRUD Operations
+
+1️⃣8️⃣ Classes
+
+Understanding Classes in JavaScript
+
+1️⃣9️⃣ Recursion
+
+Understanding Recursion
+
+Call Stack
+
+2️⃣0️⃣ Functional Programming
+
+Understanding Functional Programming
+
+2️⃣1️⃣ Asynchronous JavaScript
+
+Understanding Asynchronous Programming

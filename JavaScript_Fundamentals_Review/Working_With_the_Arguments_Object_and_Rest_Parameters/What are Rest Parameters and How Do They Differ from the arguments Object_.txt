@@ -1,0 +1,61 @@
+In the previous lesson, you learned how to work with the arguments object which is an array-like object containing the values of the arguments passed into the function.
+
+function logArgs() {
+  for (const arg of arguments) {
+    console.log(arg);
+  }
+}
+
+logArgs(1, 2, 3);
+// result:
+// 1
+// 2
+// 3
+While this is a valid way to access and work with a variable set of arguments from a function, modern JavaScript applications will use the rest parameter syntax instead.
+
+Here is an updated example using the rest parameter syntax instead of the arguments object:
+
+function logArgs(...args) {
+  for (const arg of args) {
+    console.log(arg);
+  }
+}
+
+logArgs(1, 2, 3);
+// result:
+// 1
+// 2
+// 3
+This updated example no longer references the arguments object directly. Instead, the function definition's last parameter has three dots in front of it. This causes this rest parameter to be placed within an Array object. You can name this rest parameter whatever you like. Just make sure it is the last parameter in the function definition like this:
+
+function exampleFunction(a, b, ...restOfArgs) {
+  // some code here
+}
+
+function anotherFunction(x, y, ...theArgs) {
+  // some code here
+}
+There are a few more restrictions when dealing with the rest parameter syntax. One restriction is that function definitions can only have one rest parameter. So the following example here would be considered invalid.
+
+// Won't work
+
+function badFunction(...args, ...moreArgs) {
+  // some code here
+}
+The next restriction is that trailing commas are not allowed after the rest parameter: function exampleFunction(a, b, ...restOfArgs, ).
+
+Another restriction is that the rest parameter cannot have a default value. Otherwise a SyntaxError will be thrown.
+
+function badFunction(...args = [1,2]){
+  // some code here
+}
+So what are some differences between the arguments object and rest parameters?
+
+One key difference is that the arguments object is not a real array so it doesn't support methods like includes, pop and push. But the rest parameter is an Array instance. So you can use valid built in array methods without needing to convert it to a real array first.
+
+function hasCat(...args) {
+  return args.includes("cat");
+}
+
+console.log(hasCat("dog", "chicken", "cat")); // true
+console.log(hasCat("dog", "chicken", "horse")); // false

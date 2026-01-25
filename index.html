@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript Programming Notes</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar Navigation -->
+
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+
+                <h2><i class="fas fa-book"></i> JavaScript Notes</h2>
+
+                <button class="theme-toggle" id="themeToggle">
+
+                    <i class="fas fa-moon"></i>
+
+                </button>
+
+            </div>
+
+            
+
+            <div class="controls">
+
+                <div class="search-container">
+
+                    <input type="text" id="searchInput" placeholder="Search notes...">
+
+                    <i class="fas fa-search"></i>
+
+                </div>
+
+                
+
+                <div class="nav-controls">
+
+                    <button id="expandAll"><i class="fas fa-plus-square"></i> Expand All</button>
+
+                    <button id="collapseAll"><i class="fas fa-minus-square"></i> Collapse All</button>
+
+                </div>
+
+            </div>
+
+            
+
+            <nav class="navigation">
+
+                <ul id="navList"></ul>
+
+            </nav>
+
+        </aside>
+
+
+
+        <!-- Main Content -->
+
+        <main class="main-content">
+
+            <div class="content-header">
+
+                <div class="breadcrumb" id="breadcrumb"></div>
+
+                <div class="content-actions">
+
+                    <button class="btn btn-secondary" id="fontSizeDecrease"><i class="fas fa-text-height"></i>-</button>
+
+                    <button class="btn btn-secondary" id="fontSizeIncrease"><i class="fas fa-text-height"></i>+</button>
+
+                    <button class="btn btn-secondary" id="focusMode"><i class="fas fa-bullseye"></i></button>
+
+                    <button class="btn btn-secondary" id="copyContent"><i class="fas fa-copy"></i></button>
+
+                </div>
+
+            </div>
+
+            
+
+            <div class="content-wrapper">
+
+                <div id="contentArea">
+
+                    <div class="welcome-message">
+
+                        <h1>Welcome to JavaScript Programming Notes</h1>
+
+                        <p>Select a topic from the sidebar to begin studying.</p>
+
+                        <p>Choose from comprehensive notes covering everything from JavaScript basics to advanced algorithms.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

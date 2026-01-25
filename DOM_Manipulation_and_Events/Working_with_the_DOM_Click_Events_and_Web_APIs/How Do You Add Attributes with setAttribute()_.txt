@@ -1,0 +1,40 @@
+You may be familiar with working with attributes in your HTML and CSS projects. But did you know that you can add attributes to your HTML elements in your JavaScript file?
+
+In this lesson, you will learn how to work with the setAttribute() method to add attributes to your HTML elements.
+
+Here is the basic syntax:
+
+setAttribute(attribute, value);
+Let's take a look at a few examples to better understand how to use the setAttribute() method.
+
+In this first example, we have a p element inside the HTML:
+
+<p id="para">I am a paragraph</p>
+To add a class attribute we first need to access that p element using the getElementById() method. Then we can use the setAttribute() method to add the class attribute and set the value to my-class.
+
+We are using outerHTML to log the entire HTML element including its attributes.
+
+<p id="para">I am a paragraph</p>
+<script src="index.js"></script>
+const para = document.getElementById("para");
+para.setAttribute("class", "my-class");
+
+console.log(`${para.outerHTML}`);
+If you have an existing attribute on an HTML element, you can update its value using the setAttribute() method.
+
+In this example we have a div element with a class attribute set to my-class:
+
+<div class="my-class"></div>
+To update the class attribute value to example, we can use the setAttribute() method again:
+
+<div class="my-class"></div>
+<script src="index.js"></script>
+const divEl = document.querySelector(".my-class");
+divEl.setAttribute("class", "example");
+
+console.log(`${divEl.outerHTML}`);
+So, what are some real-world examples of when to use the setAttribute() method?
+
+If you were building a dynamic image gallery, you might need to update the src attribute of an image element when a user clicks on a thumbnail.
+
+Another example would be if you're dealing with form validation and need to add certain attributes like required or minlength to an input element.
